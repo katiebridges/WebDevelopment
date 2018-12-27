@@ -1,0 +1,91 @@
+
+#cover {
+  background: url("http://kgbridges.com/katie.png") no-repeat center; 
+  background-size: cover;
+  height: 650px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+.navigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-y: visible;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
+ul {
+  padding: 0;
+}
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+.covercontent {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  font-size: 40px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center left;
+  top: 280px;
+  width: 85%;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.covercontent a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.content {
+  background-image: -webkit-linear-gradient(#000000, #444444);
+  background-size: cover;
+  height: 360px;
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+.contenttext {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 80px;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  text-decoration: none;
+}
+.contenttext a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.social {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	top:-55px;
+}
+	
+.social a{
+	  text-decoration: none;
+	  color: #FFFFFF;
+	  font-size:30px;
+	  font-weight:500;
+	  display: inline-block;
+	  float: center;
+}
+
+
